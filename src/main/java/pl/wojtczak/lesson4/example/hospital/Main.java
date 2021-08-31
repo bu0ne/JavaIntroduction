@@ -1,12 +1,12 @@
 package pl.wojtczak.lesson4.example.hospital;
 
 public class Main {
-    public static void main(String[] args) {
-        Doctor doctor = new Doctor();
-        doctor.setName("Artur");
-        doctor.seTSurname("Wojtczak");
-        doctor.specialization = "cardiopedriat";
-                doctor.license = "1341";
+  public static void main(String[] args) {
+    Doctor doctor = new Doctor();
+    doctor.setName("Artur");
+    doctor.setSurname("Wojtczak");
+    doctor.specialization = "cardiopedriat";
+    doctor.license = "1341";
 
     Nurse nurse = new Nurse();
     nurse.name = "helena";
@@ -17,8 +17,8 @@ public class Main {
     employee.name = "Jan";
     employee.surname = "Nowak";
 
-        System.out.println(doctor.name);
-        System.out.println(doctor.name);
-    }
+    System.out.println(doctor.name);
+    System.out.println(doctor.name);
+  }
 
 }
