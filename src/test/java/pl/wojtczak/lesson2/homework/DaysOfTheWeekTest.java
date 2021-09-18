@@ -30,7 +30,7 @@ class DaysOfTheWeekTest {
 
         String resault = DaysOfTheWeek.week(day);
 
-        assertEquals("There is no such a day", resault);
+        assertEquals("There is no such a day ", resault);
     }
 
     @Test
@@ -39,7 +39,7 @@ class DaysOfTheWeekTest {
 
         String resault = DaysOfTheWeek.week(day);
 
-        assertEquals("There is no such a day", resault);
+        assertEquals("There is no such a day ", resault);
     }
 
 }

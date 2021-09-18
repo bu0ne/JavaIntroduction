@@ -17,6 +17,7 @@ public class DaysOfTheWeek {
             case 6:
             case 7:
                 return "Weekend";
+
                 default: return "There is no such a day";
         }
     }
