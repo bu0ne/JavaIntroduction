@@ -14,7 +14,7 @@ public class ReverseContent {
         System.out.println(textReverse);
 
 
-        }
     }
+}
 
 
